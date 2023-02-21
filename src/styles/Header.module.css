@@ -1,0 +1,207 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--themeBlue);
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 15px;
+}
+.logo{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.logo>span{
+    color: var(--blue)
+}
+.searchfield{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1fb4ef;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.272);
+    backdrop-filter: blur(4.6px);
+    -webkit-backdrop-filter: blur(4.6px);
+    gap: 5px;
+}
+.searchfield>input{
+    width: 200px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+}
+.searchfield>input::placeholder{
+    color: white;
+    font-size: .9em;
+}
+.right{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    gap: 15px;
+}    
+.usercon{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userpic{
+    border-radius: 50%;
+    border: 2px solid var(--blue)
+}
+.pbubble{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(31, 171, 10);
+    border: 1px solid white;
+}
+.userdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.username{
+    font-size: .8em;
+    font-weight: 600;
+}
+.active{
+    font-size: .6em;
+}
+.icon, .menu{
+    cursor: pointer;
+}
+.icon:hover{
+    color: var(--blue);
+}
+.menucon{
+    display: none
+}
+
+/* Tablet Screen */
+@media only screen and (max-width:900px){
+    .logo{
+        font-size: 1em;
+    }
+   .icon, .userdetails, .searchfield{
+        display: none;
+    }
+    .menucon{
+        display: initial;
+    }
+    .topmenu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+    .iconMin{
+        cursor: pointer;
+    }
+    .iconMin:hover{
+        color: var(--blue);
+    }
+    .popmenu{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: auto;
+        height: auto;
+        background-color: var(--themeBlue);
+        border: 2px solid var(--blue);
+        border-radius: 8px;
+        padding: 10px;
+        z-index: 99;
+    }
+    .userdetailsMin{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+    .searchfieldMin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #1fb4ef;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.272);
+        backdrop-filter: blur(4.6px);
+        -webkit-backdrop-filter: blur(4.6px);
+        gap: 5px;
+    }
+    .searchfieldMin>input{
+        width: 200px;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: white;
+    }
+    .searchfieldMin>input::placeholder{
+        color: white;
+        font-size: .9em;
+    }
+    .iconMinCon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid var(--blue);
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    /* Nav */
+    .bodymenu{
+        background-color: var(--themeBlue);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .iconsq{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 5px 0;
+        padding: 10px;
+        color: white;
+        gap: 10px;
+        cursor: pointer;
+    }
+    .iconsq>span{
+        font-size: .9em;
+    }
+    .iconq{
+        padding: 5px;
+        background-color: var(--blue);
+        border: 1px solid rgba(255, 255, 255, 0.438);
+        border-radius: 5px;
+        cursor: pointer;
+    
+    }
+}
+

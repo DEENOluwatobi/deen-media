@@ -1,0 +1,50 @@
+.notify{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.activity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    margin-bottom: 15px;
+}
+.head{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.icons{
+    display: flex;
+    color: var(--themeBlue);
+    cursor: pointer;
+    gap: 20px;
+}
+.note{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(63, 215, 242, 0.15);
+}
+.img{
+    border-radius: 50%;
+    border: 2px solid var(--themeBlue);
+}
+.issue{
+    font-size: .8em;
+    font-weight: bold;
+}
+.time{
+    font-size: .7em;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:900px){
+    .notify{
+        display: none;
+    }
+}

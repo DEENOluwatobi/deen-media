@@ -1,0 +1,13 @@
+.bodycon{
+    display: grid;
+    grid-template-columns: 15% 50% 30%;
+    padding: 100px 20px 0 20px;
+    width: 100%;
+    height: calc(100px + 90vh);
+    gap: 30px;
+}
+@media only screen and (max-width:900px){
+    .bodycon{
+        display: flex;
+    }
+}
