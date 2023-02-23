@@ -75,7 +75,7 @@ export default function Feed() {
                     <div className={css.reactions}>
                         <div className={css.reacts}>
                             <UilThumbsUp/>
-                            Like
+                            Like 
                         </div>
                         <div className={css.reacts}>
                             <UilComment/>
