@@ -1,10 +1,11 @@
 .bodycon{
     display: grid;
-    grid-template-columns: 15% 50% 30%;
+    grid-template-columns: 1.5fr 5fr 3fr 0.5fr ;
+    /* grid-template-columns: 16% 45% 25% 17px; */
     padding: 100px 20px 0 20px;
     width: 100%;
     height: calc(100px + 100%);
-    gap: 30px;
+    gap: 20px;
     position: fixed;
 }
 @media only screen and (max-width:900px){
