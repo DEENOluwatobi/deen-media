@@ -7,13 +7,25 @@
     overflow-y: scroll;
 }
 .storyline{
-    overflow-x: hidden;
+    overflow-x: scroll;
     width: 100%;
     display: flex;
     align-items: center;
     gap: 5px;
     height: auto;
 }
+.storyline::-webkit-scrollbar {
+    display: none;
+  }
+  /* Track */
+  .storyline::-webkit-scrollbar-track {
+    display: none;
+  }
+  
+  /* Handle */
+  .storyline::-webkit-scrollbar-thumb {
+    display: none;
+  }
 .img{
     border-radius: 50%;
     border: 2px solid var(--themeBlue);
@@ -32,7 +44,9 @@
     border-radius: 10px;
     border: 2px solid var(--themeBlue);
     width: 100px;
+    min-width: 90px;
     height: 180px;
+    min-height: 150px;
     background-image: url(../assets/im5.jpg);
     background-size: cover;
 }
@@ -52,19 +66,22 @@
 
 .posts{
     width: 100%;
-    margin: 20px 0;;
+    margin: 20px 0;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 }
+.feedpost{
+    width: 100%;
+    padding-left: 70px;
+}
 .details{
     width: 100%;
     display: flex;
     gap: 10px;
-    padding: 10px 0;
 }
 .postdetail{
     display: flex;

@@ -63,19 +63,21 @@ export default function Feed() {
                         <span className={css.smallletter}>30mins ago</span>
                     </div>
                 </div>
-                <div className={css.thepost}></div>
-                <div className={css.reactions}>
-                    <div className={css.reacts}>
-                        <UilThumbsUp/>
-                        Like
-                    </div>
-                    <div className={css.reacts}>
-                        <UilComment/>
-                        Comment
-                    </div>
-                    <div className={css.reacts}>
-                        <UilShare/>
-                        Share
+                <div className={css.feedpost}>
+                    <div className={css.thepost}></div>
+                    <div className={css.reactions}>
+                        <div className={css.reacts}>
+                            <UilThumbsUp/>
+                            Like
+                        </div>
+                        <div className={css.reacts}>
+                            <UilComment/>
+                            Comment
+                        </div>
+                        <div className={css.reacts}>
+                            <UilShare/>
+                            Share
+                        </div>
                     </div>
                 </div>
             </div>
@@ -88,19 +90,21 @@ export default function Feed() {
                         <span className={css.smallletter}>1hour ago</span>
                     </div>
                 </div>
-                <div className={css.thepost1}></div>
-                <div className={css.reactions}>
-                    <div className={css.reacts}>
-                        <UilThumbsUp/>
-                        Like
-                    </div>
-                    <div className={css.reacts}>
-                        <UilComment/>
-                        Comment
-                    </div>
-                    <div className={css.reacts}>
-                        <UilShare/>
-                        Share
+                <div className={css.feedpost}>
+                    <div className={css.thepost1}></div>
+                    <div className={css.reactions}>
+                        <div className={css.reacts}>
+                            <UilThumbsUp/>
+                            Like
+                        </div>
+                        <div className={css.reacts}>
+                            <UilComment/>
+                            Comment
+                        </div>
+                        <div className={css.reacts}>
+                            <UilShare/>
+                            Share
+                        </div>
                     </div>
                 </div>
             </div>
@@ -113,20 +117,23 @@ export default function Feed() {
                         <span className={css.smallletter}>30mins ago</span>
                     </div>
                 </div>
-                <div className={css.thepost2}></div>
-                <div className={css.reactions}>
-                    <div className={css.reacts}>
-                        <UilThumbsUp/>
-                        Like
+                <div className={css.feedpost}>
+                    <div className={css.thepost2}></div>
+                    <div className={css.reactions}>
+                        <div className={css.reacts}>
+                            <UilThumbsUp/>
+                            Like
+                        </div>
+                        <div className={css.reacts}>
+                            <UilComment/>
+                            Comment
+                        </div>
+                        <div className={css.reacts}>
+                            <UilShare/>
+                            Share
+                        </div>
                     </div>
-                    <div className={css.reacts}>
-                        <UilComment/>
-                        Comment
-                    </div>
-                    <div className={css.reacts}>
-                        <UilShare/>
-                        Share
-                    </div>
+
                 </div>
             </div>
 
@@ -138,19 +145,21 @@ export default function Feed() {
                         <span className={css.smallletter}>50mins ago</span>
                     </div>
                 </div>
-                <div className={css.thepost3}></div>
-                <div className={css.reactions}>
-                    <div className={css.reacts}>
-                        <UilThumbsUp/>
-                        Like
-                    </div>
-                    <div className={css.reacts}>
-                        <UilComment/>
-                        Comment
-                    </div>
-                    <div className={css.reacts}>
-                        <UilShare/>
-                        Share
+                <div className={css.feedpost}>
+                    <div className={css.thepost3}></div>
+                    <div className={css.reactions}>
+                        <div className={css.reacts}>
+                            <UilThumbsUp/>
+                            Like
+                        </div>
+                        <div className={css.reacts}>
+                            <UilComment/>
+                            Comment
+                        </div>
+                        <div className={css.reacts}>
+                            <UilShare/>
+                            Share
+                        </div>
                     </div>
                 </div>
             </div>

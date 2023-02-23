@@ -2,12 +2,13 @@
     background-color: var(--themeBlue);
     border-radius: 5px;
     padding: 10px;
+    height: calc(100px + 65vh);
 }
 .icons{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 20px 0;
+    margin: 10px 0;
     padding: 10px;
     color: white;
     gap: 10px;
