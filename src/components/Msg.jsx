@@ -35,6 +35,10 @@ export default function Msg() {
                 <Image className={css.img} src={P1} alt='' width={50} height={50}/>
                 <div className={css.pbubble}></div>
             </div>
+            <div className={css.useractive}>
+                <Image className={css.img} src={P2} alt='' width={50} height={50}/>
+                <div className={css.pbubble}></div>
+            </div>
         </div>
     )
 };
