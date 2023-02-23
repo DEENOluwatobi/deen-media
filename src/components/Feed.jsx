@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { UilComment, UilShare, UilThumbsUp } from '@iconscout/react-unicons'
+import { UilComment, UilShare, UilThumbsUp, UilEllipsisV } from '@iconscout/react-unicons'
 import css from '../styles/Feed.module.css'
 import P5 from '../assets/p5.jpg'
 import P4 from '../assets/p4.jpg'
@@ -56,6 +56,7 @@ export default function Feed() {
             </div>
 
             <div className={css.posts}>
+            <div className={css.detcon}>               
                 <div className={css.details}>
                     <Image className={css.img} src={P5} alt='' width={60} height={60}/>
                     <div className={css.postdetail}>
@@ -63,7 +64,13 @@ export default function Feed() {
                         <span className={css.smallletter}>30mins ago</span>
                     </div>
                 </div>
+                <UilEllipsisV/>
+            </div>
                 <div className={css.feedpost}>
+                    <p className={css.feedtext}>
+                        Hello everyone.<br/>
+                        It is another day at Santa Monica Beach. Tell me you love my shades and get a free one.
+                    </p>
                     <div className={css.thepost}></div>
                     <div className={css.reactions}>
                         <div className={css.reacts}>
@@ -83,6 +90,7 @@ export default function Feed() {
             </div>
 
             <div className={css.posts}>
+            <div className={css.detcon}>       
                 <div className={css.details}>
                     <Image className={css.img} src={P4} alt='' width={60} height={60}/>
                     <div className={css.postdetail}>
@@ -90,6 +98,8 @@ export default function Feed() {
                         <span className={css.smallletter}>1hour ago</span>
                     </div>
                 </div>
+                <UilEllipsisV/>
+            </div>
                 <div className={css.feedpost}>
                     <div className={css.thepost1}></div>
                     <div className={css.reactions}>
@@ -110,13 +120,18 @@ export default function Feed() {
             </div>
 
             <div className={css.posts}>
-                <div className={css.details}>
-                    <Image className={css.img} src={P2} alt='' width={60} height={60}/>
-                    <div className={css.postdetail}>
-                        <span className={css.bigletter}>Mercy Chike</span>
-                        <span className={css.smallletter}>30mins ago</span>
+                <div className={css.detcon}>
+                    <div className={css.details}>
+                        <Image className={css.img} src={P2} alt='' width={60} height={60}/>
+                        <div className={css.postdetail}>
+                            <span className={css.bigletter}>Mercy Chike</span>
+                            <span className={css.smallletter}>30mins ago</span>
+                        </div>
                     </div>
+                    <UilEllipsisV/>
                 </div>
+
+
                 <div className={css.feedpost}>
                     <div className={css.thepost2}></div>
                     <div className={css.reactions}>
@@ -138,6 +153,7 @@ export default function Feed() {
             </div>
 
             <div className={css.posts}>
+            <div className={css.detcon}>
                 <div className={css.details}>
                     <Image className={css.img} src={P3} alt='' width={60} height={60}/>
                     <div className={css.postdetail}>
@@ -145,6 +161,8 @@ export default function Feed() {
                         <span className={css.smallletter}>50mins ago</span>
                     </div>
                 </div>
+                <UilEllipsisV/>
+            </div>
                 <div className={css.feedpost}>
                     <div className={css.thepost3}></div>
                     <div className={css.reactions}>

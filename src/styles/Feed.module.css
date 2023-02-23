@@ -78,6 +78,17 @@
     width: 100%;
     padding-left: 70px;
 }
+.feedtext{
+    padding: 0 0 5px 0;
+    margin: 0;
+    font-size: .9em;
+}
+.detcon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .details{
     width: 100%;
     display: flex;
